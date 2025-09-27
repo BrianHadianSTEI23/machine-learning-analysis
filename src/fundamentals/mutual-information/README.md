@@ -2,7 +2,8 @@
 Mutual Information is a numeric value that gives us a sense of how closely related two variables are. Mutual 
 Information is based on entropy in the sense that when entropy gives the surprise (change) we see in one variable 
 that is used for outcome, mutual information gives the suprise (change) in one variable that is related to the surprise (change) in another. Mutual information follow formula below
-$$ MI = \sigma\sigma(p(x, y))log(p(x, y) / (p(x) * p(y))) $$
+$$MI = \sigma\sigma(p(x, y))log(p(x, y) / (p(x) * p(y)))$$  
+
 In a brief sense, if given one support parameter and one target parameter which both have a correlation (inverse or not), 
 it will converge into 0.5. And when it is not, it will diverge from it as far as possible.
 

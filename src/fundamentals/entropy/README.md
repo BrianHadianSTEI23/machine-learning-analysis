@@ -4,12 +4,12 @@ for a given state, there will always be a value that represents how the equation
 into the state. That value is called Surprise (s) and with a given equation of the problem, probability of getting
 a certain 'outcome' (outcome based on that equation to solve) will be related to probability (by measuring the likeliness
 of getting that outcome divided by all outcome possible). Surprise (s) can be stated as below
-$$ s = log (1 / probability) $$
+$$s = log (1 / probability)$$
 because suprise is related to the inverse of probability and the log will make the function reach 0 and 1 more easily 
 and accurately.  
 
 By calculating the suprise (s) for each distinct outcome, entropy for that particular state follow formula below
-$$ Entropy = \sigma(x * p(x)) $$
+$$Entropy = \sigma(x * p(x))$$
 with x represents the surprise of certain outcome of current state and p(x) represents the probability of that certain
 outcome of current state.  
   
