@@ -7,6 +7,9 @@ further use in the model
 # Motivation
 Given a data, how do we check what method will works best with the data?
 
+# Limitation
+None
+
 # Types of Cross validation
 1. N-Fold cross validation
 ## Algorithm
