@@ -5,7 +5,8 @@ true positives of a certain value in the predicted column. It follows formula be
 $$Sensitivity = true positives of that certain value / (false positives of that certain value)$$  
   
 Specifity is a metric calculated from confusion matrix which represents how good the algorithm is predicting the 
-true positives OTHER THAN certain value which is checked at that current iteration in the predicted column. It follows formula below
+true positives OTHER THAN certain value which is checked at that current iteration in the predicted column. It follows formula below  
+  
 $$Specifity = true negatives of OTHER THAN certain value / (false negatives of OTHER THAN certain value)$$  
   
 These two are calculated for each distinct values in the predicted column and the final value of specifity and sensitivity
