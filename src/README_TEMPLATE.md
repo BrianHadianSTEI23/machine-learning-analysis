@@ -5,6 +5,8 @@
 
 # Limitation
 
-# Types of Cross validation (If exist)
+# Types of Algorithm name (If exist)
 
 ## Algorithm
+
+# Example
