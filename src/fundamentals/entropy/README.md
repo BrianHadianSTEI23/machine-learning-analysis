@@ -9,7 +9,7 @@ because suprise is related to the inverse of probability and the log will make t
 and accurately.  
 
 By calculating the suprise (s) for each distinct outcome, entropy for that particular state follow formula below
-$$ Entropy = /sigma(x * p(x)) $$
+$$ Entropy = \sigma(x * p(x)) $$
 with x represents the surprise of certain outcome of current state and p(x) represents the probability of that certain
 outcome of current state.  
   
