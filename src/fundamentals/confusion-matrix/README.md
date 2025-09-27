@@ -4,7 +4,7 @@ how many prediction is wrong. Based on those how many those are, a formula to ch
 be used to quantify how 'right' an algorithm is. 
 
 # Motivation
-Given a dataset, how do you determine the best algorithm for prediction?
+Given a categorical dataset, how do you determine the best algorithm for prediction?
 
 # Limitation
 Only works for categorical task.
