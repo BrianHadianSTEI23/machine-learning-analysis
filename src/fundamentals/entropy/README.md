@@ -1,6 +1,7 @@
 # Entropy
-Entropy is a measure that represents how likely a state could be. Entropy utilizes stochastic principles such that
-for a given state, there will always be a value that represents how the equation of the problem is applied 
+Entropy is a measure that represents how likely a state could be (basically the same as expectancy). 
+Entropy utilizes stochastic principles such that for a given state, there will 
+always be a value that represents how the equation of the problem is applied 
 into the state. That value is called Surprise (s) and with a given equation of the problem, probability of getting
 a certain 'outcome' (outcome based on that equation to solve) will be related to probability (by measuring the likeliness
 of getting that outcome divided by all outcome possible). Surprise (s) can be stated as below
