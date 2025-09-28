@@ -7,6 +7,8 @@ Using the same approach as linear regression, it will result in a dimension (n -
 assuming the data can be plotted in n dimension.  
 By following the F-statistic value from linear regression of form  
   
+$$F_observed = ((SS(mean) - SS(fit)) / (p_fit - p_mean)) / (SS(mean) / (n - p_mean))$$  
+$$or$$  
 $$F_observed = ((Var(mean) - Var(fit)) / (p_fit - p_mean)) / (Var(mean) / (n - p_mean))$$  
   
 multiple regression can be compared to the linear regression by changing the value of every element that came from 
@@ -20,7 +22,8 @@ Given a dataset (numerical or categorical encoded into integer) of $\textbf{n pa
 
 # Limitation
 Best work on numerical dataset. Categorical dataset need encoding into integer and rounding of the predicted value 
-to determine what category does the data belong.  
+to determine what category does the data belong. Categorical dataset will use t-test (for two unconstrained parameter) or
+ANOVA (for > 2 unconstrained parameter)  
 
 # Algorithm
 1. (Do later)

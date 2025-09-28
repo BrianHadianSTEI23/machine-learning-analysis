@@ -29,6 +29,8 @@ Usually, p-value for linear regression will be using F-distribution as it is
 the most common and applicable distribution for multiple parameter predicting a certain parameter. p-value will be 
 calculated by calculating F-statistic first, which follows
 
+$$F_observed = ((SS(mean) - SS(fit)) / (p_fit - p_mean)) / (SS(mean) / (n - p_mean))$$  
+$$or$$  
 $$F_observed = ((Var(mean) - Var(fit)) / (p_fit - p_mean)) / (Var(mean) / (n - p_mean))$$  
   
 where $p_fit$ is the number of parameter used for prediction (k), n is the number of population, and $p_mean$ is the number 
@@ -46,7 +48,8 @@ that the distance from each data from the dataset is the minimum compared to oth
 
 # Limitation
 Best work on numerical dataset. Categorical dataset need encoding into integer and rounding of the predicted value 
-to determine what category does the data belong?
+to determine what category does the data belong. Categorical dataset will use t-test (for two unconstrained parameter) or
+ANOVA (for > 2 unconstrained parameter)  
 
 # Algorithm
 1. (do later)
